@@ -19,8 +19,8 @@ class Program {
     //Calculate commission 200 + (0.09 * SALESAMOUNT)
 
     commission = 200+(0.09*sales);
-    Console.WriteLine("Sales commission for "+ name);//this is where I am having an issue putting in .Write instead of .WriteLine.
-    Console.WriteLine("is $" + commission);
+    Console.WriteLine("Sales commission for "+ name+" is $" + commission+ ".");
+   
 
     //Display preformance status
 
